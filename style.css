@@ -1,0 +1,585 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 40px;
+    scroll-behavior: smooth;
+
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20 px 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    align-items: flex-end;
+}
+
+li {
+    float: left;
+}
+
+a {
+    font-size: x-large;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #686AFF;
+
+
+}
+article{
+    background-color: #686AFF;
+    ;
+    padding: 20px;
+}
+nav {
+    background-color: white;
+    width: 100%;
+}
+
+.description {
+    margin-left: 1%;
+    margin-top: 15%;
+    margin-top: 10px;
+
+
+}
+
+.description h1 {
+    font-size: 50px;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.icon {
+    list-style-type: none;
+    position: absolute;
+    right: 0.5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon ul {
+    display: flex;
+    flex-direction: column;
+    right: auto;
+
+}
+
+.logo-medias {
+    width: 40px;
+    height: 40px;
+}
+
+.bulle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+
+/* #sec-1{
+   
+}
+
+/* Pourcentage*/
+#SkillBox {
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    width: 50%;
+    height: auto;
+    margin: 70px auto;
+    background-color: #fff;
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+    border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+#SkillBox img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+}
+
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+
+#Skill-HTML {
+    width: 85%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+
+@keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 85%
+    }
+}
+
+#sec-2 {
+    background-color: red;
+}
+
+@-webkit-keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 85%
+    }
+}
+
+@-moz-keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 85%
+    }
+}
+
+@-o-keyframes Animate-HTML {
+    from {
+        background-color: red;
+    }
+}
+
+#Skill-CSS {
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+
+@keyframes Animate-CSS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+
+@-moz-keyframes Animate-CSS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+@-o-keyframes Animate-CSS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+#Skill-JS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 65%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+}
+
+@keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 65%
+    }
+}
+
+@-webkit-keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        background-color: red;
+    }
+
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 65%
+    }
+}
+
+@-o-keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 65%
+    }
+}
+
+#Skill-SQL {
+    animation: Animate-SQL 4s;
+    -webkit-animation: Animate-SQL 4s;
+    -moz-animation: Animate-SQL 4s;
+    -o-animation: Animate-SQL 4s;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #23b1db;
+}
+
+@keyframes Animate-SQL {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 80%
+    }
+}
+
+@-webkit-keyframes Animate-SQL {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 80%
+    }
+}
+
+@-moz-keyframes Animate-SQL {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 80%
+    }
+}
+
+@-o-keyframes Animate-SQL {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 80%
+    }
+}
+
+#Skill-PHP {
+    animation: Animate-VBNET 4s;
+    -webkit-animation: Animate-VBNET 4s;
+    -moz-animation: Animate-VBNET 4s;
+    -o-animation: Animate-VBNET 4s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color: #ea39ff;
+}
+
+@keyframes Animate-VBNET {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+@-webkit-keyframes Animate-VBNET {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+@-moz-keyframes Animate-VBNET {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+@-o-keyframes Animate-VBNET {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 35%
+    }
+}
+
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+
+/* Bouton Pour sroll en bas */
+.scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.scroll-down::before,
+.scroll-down::after {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::after {
+    top: 30%;
+    animation-delay: .3s;
+
+}
+
+@keyframes scroll-down {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        top: 90%;
+    }
+}
+
+/* Duexième page */
+
+#sec-2 {
+        width: 100%; 
+         background-color: #191919; 
+}
+
+.apropos img {
+    height: auto;
+    width: 430px;
+}
+
+.apropos-text {
+
+    padding: 100px;
+}
+
+.apropos {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+   
+}
+
+.apropos h2 {
+    color: #686AFF;
+   
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.apropos-text h3 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.apropos-text p {
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+
+/* Carousel */
+
+.container2 {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    padding-left: 10px;
+}
+
+.slider img {
+    max-width: 100%;
+    display: none;
+}
+
+img.active {
+    display: block;
+    animation: fade 0.8s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.cont-btn {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+}
+
+.btn-nav {
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+    color: #686AFF;
+}
+/* button cv */
+.apropos-text a {
+    background-color: #686AFF;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+

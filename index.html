@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <title>Portfolio 2</title>
+</head>
+
+<body>
+    <section id="sec-1">
+        <div class="container">
+            <nav>
+                <img src="image/logo2.png" class="logo">
+                <ul class="navbar">
+                    <li><a href="#sec-2">À propos de moi</a></li>
+                    <li><a href="#">Projet</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+
+            </nav>
+            <article>
+                <div class="icon">
+                    <ul>
+                        <li class="bulle">
+                            <ion-icon name="logo-facebook" class="logo-medias"></ion-icon>
+                        </li>
+                        <li class="bulle">
+                            <ion-icon name="logo-instagram" class="logo-medias"></ion-icon>
+
+                        </li>
+                        <li class="bulle">
+                            <ion-icon name="call-outline" class="logo-medias"></ion-icon>
+
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="description">
+                    <h1>Bonjours je m'appelle <span>Nathan</span></h1>
+                </div>
+                <div id="SkillBox">
+                    <div class="SkillBar">
+                        <div id="Skill-HTML">
+                            <span class="Skill-Area ">HTML</span>
+                            <span class="PercentText ">80%</span>
+                        </div>
+                    </div>
+
+                    <div class="SkillBar">
+                        <div id="Skill-CSS">
+                            <span class="Skill-Area ">CSS</span>
+                            <span class="PercentText ">70%</span>
+                        </div>
+                    </div>
+
+                    <div class="SkillBar">
+                        <div id="Skill-JS">
+                            <span class="Skill-Area ">Javascript</span>
+                            <span class="PercentText">65%</span>
+                        </div>
+                    </div>
+
+                    <div class="SkillBar">
+                        <div id="Skill-PHP">
+                            <span class="Skill-Area ">PHP</span>
+                            <span class="PercentText ">70%</span>
+                        </div>
+                    </div>
+                    <div class="SkillBar">
+                        <div id="Skill-SQL">
+                            <span class="Skill-Area ">SQL </span>
+                            <span class="PercentText ">80%</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <a href="#sec-2">
+                <div class="scroll-down"></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Duexième page -->
+
+    <section id="sec-2">
+        <div class="container2">
+            
+                <div class="container22">
+                    <div class="slider">
+                        <img class="active" id="imgcarousel"
+                            src="./image/photomoi.jpg"
+                            height="600" width="700">
+                        <img id="imgcarousel"
+                            src="./image/thumbnail_DSC_4622.jpg"
+                            height="600" width="700">
+                        <img id="imgcarousel"
+                            src="./image/photo3.jpg"
+                            height="600" width="700">
+                    </div>
+
+
+                    <div class="cont-btn">
+                        <div class="btn-nav left">←</div>
+                        <div class="btn-nav right">→</div>
+                    </div>
+                </div>
+            
+                <div class="apropos">
+                <div class="apropos-text">
+
+                    <h2>À propos de moi</h2>
+                    <h3>Developpeur Full stack</h3>
+                    <p>
+                        Madame, Monsieur, Passionné par la réalisation et le développement de projets web,
+                         je me suis tout naturellement tourné vers une carrière de développeur web. 
+                         Aujourd'hui je souhaite intégrer une entreprise dynamique et jeune, 
+                         aussi je serai ravi de rejoindre votre équipe en tant que développeur web
+                    </p>
+                    <a type="button" href="./image/CV NATHAN LESCHAVE_CAMPUS_MONTSOURIS-1.pdf"download>CV</a>
+                    <a type="button" href="#sec-3">Contact</a>
+                </div>
+
+                </div>
+            </div>
+
+            
+
+    </section>
+
+    <section id="sec-3">
+        <div class="container3">
+            <h1>Contact</h1>
+            <form method="post">
+                <label>Votre email</label>
+                <input type="email" name="email" required><br>
+                <label>Sujet</label>
+                <input type="text" name="sujet" required><br>
+                <label>Message</label>
+                <textarea name="message" required></textarea><br>
+                <input type="submit">
+            </form>
+                
+
+
+        </div>
+
+    </section>
+
+
+</body>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="./animation/carousel.js"></script>
+
+<script src="./animation/app.js"></script>
+
+<script src="./animation/logo.js"></script>
+
+</html>
